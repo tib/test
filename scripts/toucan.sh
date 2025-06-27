@@ -9,4 +9,4 @@ DIR="$(pwd)"
 
 echo $DIR;
 
-docker run --rm -v "$(pwd)":/app/site --entrypoint toucan toucansites/toucan generate /app/site/src /app/site/dist
+docker run --rm -v "$(pwd)":/app/site --entrypoint toucan toucansites/toucan generate /app/site /app/site/dist
